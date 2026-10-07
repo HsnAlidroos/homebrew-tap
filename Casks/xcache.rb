@@ -7,7 +7,7 @@ cask "xcache" do
   desc "Find and safely clean developer caches"
   homepage "https://github.com/HsnAlidroos/xcache-releases"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Xcache.app"
   binary "#{appdir}/Xcache.app/Contents/MacOS/Xcache", target: "xcache"
